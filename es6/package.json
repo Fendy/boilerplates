@@ -1,0 +1,27 @@
+{
+  "name": "es6-boilerplate",
+  "version": "1.0.0",
+  "description": "Boilerplate for creating ES6 based modules/libraries",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack-dev-server",
+    "clean": "rimraf ./dist/*",
+    "prod": "npm run clean && webpack -p"
+  },
+  "keywords": [
+    "es6",
+    "boilerplate",
+    "js"
+  ],
+  "author": "Luis Fernando Saavedra Meza",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-env": "^1.6.0",
+    "html-webpack-plugin": "^2.30.1",
+    "rimraf": "^2.6.1",
+    "webpack": "^3.5.5",
+    "webpack-dev-server": "^2.7.1"
+  }
+}
